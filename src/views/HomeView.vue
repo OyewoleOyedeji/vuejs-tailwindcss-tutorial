@@ -24,9 +24,9 @@
 
     <router-link
       class="mt-5 inline-block text-white bg-blue-500 px-4 py-4 rounded-full hover:bg-blue-400 transition"
-      to="/why-use-tailwind"
+      to="/demo"
     >
-      Get started
+      View the demo
     </router-link>
   </div>
 </template>
@@ -34,5 +34,6 @@
 <script>
 export default {
   name: "HomeView",
+  title: "Homepage",
 };
 </script>
