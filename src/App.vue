@@ -1,11 +1,5 @@
 <template>
-  <main>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-
-    <img src="./assets/vuejs.svg" alt="Vue.js Logo" />
-    <img src="./assets/tailwindcss.svg" alt="Tailwind CSS Logo" />
-  </main>
+  <nav><router-link to="/">Home</router-link></nav>
   <router-view />
 </template>
 
