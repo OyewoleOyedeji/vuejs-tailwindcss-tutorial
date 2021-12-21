@@ -8,9 +8,14 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/why-use-tailwind",
-    name: "why-use-tailwind",
-    component: () => import("../views/WhyUseTailwindView.vue"),
+    path: "/demo",
+    name: "demo",
+    component: () => import("../views/DemoView.vue"),
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: () => import("../views/AboutView.vue"),
   },
 ];
 
